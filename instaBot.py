@@ -49,8 +49,6 @@ class instaBot:
 		scraper = Scraper(UserScraper(self.browser))
 		scraper.run()
 
-		followManager = FollowManager(self.browser)
-
 		if self.dailyVars.should("follow"):
 			followManager.follow()
 
@@ -113,6 +111,7 @@ class instaBot:
 	# do it so that the browser only opens and logs in if a task is really to be performed - otherwise if instagram is logged
 	# into consistantly every hour, at the same time, instagram will get suspicious
 	# make MyLogger log to a different file than the automatic error logger - errors.log is very hard to read
+	# make it so that scrapper recognises whether a post is eligible for scraping (except for the hashtag criteria) before clicking on it
 
 
 

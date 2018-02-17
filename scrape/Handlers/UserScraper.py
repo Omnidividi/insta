@@ -47,7 +47,7 @@ class UserScraper:
 		while not postFound:
 			# 1: find posts
 			self.browser.get("https://www.instagram.com/" + username + "/")
-			sleep(2)
+			sleep(3)
 			try:
 				error = self.browser.find_element_by_css_selector("error-container")
 				MyLogger().log("!!!!!!!!!!!!!!! " + username + " does not exist !!!!!!!!!!")
@@ -57,6 +57,9 @@ class UserScraper:
 				# continue as per usual
 			posts = self.browser.find_elements_by_css_selector("div._mck9w._gvoze._tn0ps")
 			postNumber = len(posts)
+			if postNumber == 0:
+				raise ScrapeExceptions.NotEnoughPostsFoundForThisSearchCriteria()
+
 			randomPostNumber = random.randint(1, postNumber)
 
 			# 2: select random post number - must be within range, random and not previously selected

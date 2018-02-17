@@ -26,7 +26,7 @@ class Poster:
 
 	def uploadLimitNotReached(self):
 		postsPerDay = config.posts_per_day
-		alreadyPostedToday = Request().get("/report/daily-report/fetch").json()["followed"]
+		alreadyPostedToday = Request().get("/report/daily-report/fetch").json()["posted"]
 		return alreadyPostedToday < postsPerDay
 
 	def outstandingPost(self):
@@ -42,7 +42,6 @@ class Poster:
 
 		bottomBar = self.browser.find_element_by_css_selector("nav._68u16._evlcw")
 		imageInput = bottomBar.find_element_by_css_selector("input._l8al6")
-		# filepath = os.getcwd()+imagePath
 
 		imageInput.send_keys(imagePath)
 
@@ -79,4 +78,3 @@ class Poster:
 
 
 
-	

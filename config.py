@@ -67,7 +67,7 @@ class config:
 	use_proxy=False
 
 	# headless
-	headless=True # setting headless to true will make the browser window not appear even if the bot is runnings
+	headless=False # setting headless to true will make the browser window not appear even if the bot is runnings
 
 
 
