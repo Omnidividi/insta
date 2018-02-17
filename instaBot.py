@@ -110,6 +110,9 @@ class instaBot:
 	# go through and delete all the sleeps
 	# MyLogger all errors
 	# Upload and update from github so that all the projects are always consistant
+	# do it so that the browser only opens and logs in if a task is really to be performed - otherwise if instagram is logged
+	# into consistantly every hour, at the same time, instagram will get suspicious
+	# make MyLogger log to a different file than the automatic error logger - errors.log is very hard to read
 
 
 

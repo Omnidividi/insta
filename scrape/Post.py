@@ -15,8 +15,8 @@ class Post:
 		self.browser = browser
 
 	def scrape(self):
-		try: 
-			self.savePost() 
+		try:
+			self.savePost()
 		except ScrapeExceptions.FileSaveError:
 			# post could not be saved
 			# delete database record
@@ -29,7 +29,7 @@ class Post:
 	## Checking Eligibility
 	def eligibleForScraping(self):
 		self.browser.get(self.postUrl)
-
+		sleep(2)
 		# check is it is a video
 		if self.postIsAVideo():
 			print("post is a video")
@@ -37,7 +37,7 @@ class Post:
 
 		self.imageUrl = self.browser.find_element_by_css_selector("img._2di5p").get_attribute("src")
 		sleep(3)
-		
+
 		# not on hashtag blacklist
 		if self.postIsOnHashtagBlacklist():
 			print("post is on hashtag blacklist")
@@ -83,12 +83,12 @@ class Post:
 	def savePost(self):
 		## commit to database
 		self.savePostToDatabase()
-				
+
 		## saveLocation = s3()
 		saveLocation = Local() # maybe extract this to config
 		saveLocation.download(self)
 
-			
+
 	def savePostToDatabase(self):
 		self.scrapeAttributes()
 
@@ -106,19 +106,19 @@ class Post:
 			"disapproved": 0,
 		}
 		request = Request().post("/post", parameters)
-		print(request)
-		print(request.text)
+
 		if request.status_code == 200:
 			return True
 		else:
 			raise ScrapeExceptions.DatabaseError()
 
-		sleep(120)
-
 	def scrapeAttributes(self):
 		self.originallyPostedAt = self.browser.find_element_by_css_selector("a._djdmk time._p29ma._6g6t5").get_attribute("datetime")
 		self.ownerUserName = self.browser.find_element_by_css_selector("div._74oom div._eeohz a._2g7d5._iadoq").get_attribute("title")
-		self.originalCaption = self.browser.find_element_by_css_selector("ul._b0tqa li._ezgzd:first-child").find_element_by_css_selector("span").text
+		try:
+			self.originalCaption = self.browser.find_element_by_css_selector("ul._b0tqa li._ezgzd:first-child").find_element_by_css_selector("span").text
+		except:
+			self.originalCaption = "No caption provided..."
 
 
 

@@ -1,6 +1,7 @@
 from scrape.ScrapeExceptions import ScrapeExceptions
 from config import config
 from utilities.request.Request import Request
+from utilities.logger.MyLogger import MyLogger
 
 class Scraper:
 

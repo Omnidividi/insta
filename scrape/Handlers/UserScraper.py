@@ -1,4 +1,4 @@
-from config import config 
+from config import config
 from time import sleep
 from scrape.Post import Post
 from scrape.ScrapeExceptions import ScrapeExceptions
@@ -17,12 +17,12 @@ class UserScraper:
 		randomUsername = self.fetchRandomUser()
 
 
-		try: 
+		try:
 			self.fetchRandomPostObject(randomUsername).scrape()
 		except ScrapeExceptions.NotEnoughPostsFoundForThisSearchCriteria as e:
 			# if not enough posts were found then just skip this user
 			return
-		
+
 	def fetchRandomUser(self):
 		# find users that were not previously selected and shuffle them
 		notPreviouslySelectedUsernames = list(set(self.possibleUsersToScrapeFrom) - set(self.usersScrapingHasBeenAttemptedOn))
@@ -35,20 +35,27 @@ class UserScraper:
 		# record and return random user
 		self.usersScrapingHasBeenAttemptedOn.append(randomUsername)
 		return randomUsername
-		
-		
+
+
 
 	def fetchRandomPostObject(self, username):
 		postFound = False
 		postsAttempted = 0
 		randomPostTried = []
-		
+
 
 		while not postFound:
 
 			# 1: find posts
 			self.browser.get("https://www.instagram.com/" + username + "/")
 			sleep(2)
+			try:
+				error = self.browser.find_element_by_css_selector("error-container")
+				MyLogger().log("!!!!!!!!!!!!!!! " + username + " does not exist !!!!!!!!!!")
+				raise ScrapeExceptions.NotEnoughPostsFoundForThisSearchCriteria()
+			except:
+				break
+				# continue as per usual
 			posts = self.browser.find_elements_by_css_selector("div._mck9w._gvoze._tn0ps")
 			postNumber = len(posts)
 			randomPostNumber = random.randint(1, postNumber)
@@ -56,7 +63,7 @@ class UserScraper:
 			# 2: select random post number - must be within range, random and not previously selected
 			while randomPostNumber in randomPostTried:
 				randomPostNumber = random.randint(1, postNumber)
-				
+
 			# 3: select post
 			randomPost = posts[randomPostNumber - 1]
 			randomPostTried.append(randomPostNumber)
