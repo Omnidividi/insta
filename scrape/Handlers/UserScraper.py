@@ -45,7 +45,6 @@ class UserScraper:
 
 
 		while not postFound:
-
 			# 1: find posts
 			self.browser.get("https://www.instagram.com/" + username + "/")
 			sleep(2)
@@ -54,7 +53,7 @@ class UserScraper:
 				MyLogger().log("!!!!!!!!!!!!!!! " + username + " does not exist !!!!!!!!!!")
 				raise ScrapeExceptions.NotEnoughPostsFoundForThisSearchCriteria()
 			except:
-				break
+				pass
 				# continue as per usual
 			posts = self.browser.find_elements_by_css_selector("div._mck9w._gvoze._tn0ps")
 			postNumber = len(posts)
@@ -76,7 +75,6 @@ class UserScraper:
 			if postObject.eligibleForScraping():
 				postFound = True
 				return postObject
-
 			# 6: if post is not eligibile, record that another post has been checked
 			# if all posts are checked and still no post is found then return false
 			postsAttempted += 1
