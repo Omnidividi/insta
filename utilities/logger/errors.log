@@ -1,0 +1,4 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /post/can-be-deleted HTTP/1.1" 200 None
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:52527/session/2cbfab4293cd30eb36a1581baada849e/window {"sessionId": "2cbfab4293cd30eb36a1581baada849e"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request

@@ -21,4 +21,4 @@ class ErrorLogEmail:
 
 	def generateAttachment(self):
 		self.attachmentName = "error.txt"
-		self.attachment = "errors.log"
+		self.attachment = config.log_path

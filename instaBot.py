@@ -14,7 +14,7 @@ class instaBot:
 
 	def __init__(self):
 		self.dailyVars = DailyVars()
-		
+
 		chrome_options = webdriver.ChromeOptions()
 		mobile_emulation = { "deviceName": "iPhone 7" }
 		chrome_options = webdriver.ChromeOptions()
@@ -24,7 +24,7 @@ class instaBot:
 			chrome_options.add_argument('--headless')
 			chrome_options.add_argument('--disable-gpu')  # Last I checked this was necessary.
 
-		
+
 		if config.use_proxy:
 			myProxy = config.proxy
 
@@ -40,7 +40,7 @@ class instaBot:
 
 		AutoLogin(self.browser).login()
 
-	
+
 
 
 	def run(self):
@@ -63,7 +63,8 @@ class instaBot:
 
 		sleep(5)
 		self.browser.close()
-		
+		return
+
 
 		# except:
 		# 	print("critical error, no user with good posts could be found")
@@ -84,6 +85,10 @@ class instaBot:
 		dailyHandler.reportErrors()
 		# delete all images that have been posted or disapproved to save space
 		dailyHandler.cleanOutScrapedImages()
+
+		sleep(5)
+		self.browser.close()
+		return
 
 
 

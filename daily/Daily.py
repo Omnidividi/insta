@@ -36,9 +36,9 @@ class Daily:
 		    for filepath in filepaths:
 		     	# check if the images exist in scraped images and delete them
 		    	local.deleteIfExists(filepath)
-		   
+
 		except JSONDecodeError:
 		    print("no posts to delete")
-		
+
 
 

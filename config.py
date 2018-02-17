@@ -54,12 +54,12 @@ class config:
 	# comments
 	captions = ["😍","😱","👑"]
 
+	base_path=os.path.dirname(os.path.abspath(__file__))
 	# filedriver options
 	filedriver="local"
-	# local_path="/Users/leonhardsoenke/Coding/python/instaBot/scrape/ScrapedImages/"
-	local_path=os.path.dirname(os.path.abspath(__file__)) + "/scrape/ScrapedImages/"
+	local_path=base_path + "/scrape/ScrapedImages/"
 	# logging options
-
+	log_path=base_path + "/utilities/logger/errors.log"
 
 	# proxy
 	#proxy	str	Access instagram through a proxy. (host:port or user:password@host:port)
@@ -67,7 +67,7 @@ class config:
 	use_proxy=False
 
 	# headless
-	headless=False # setting headless to true will make the browser window not appear even if the bot is runnings
+	headless=True # setting headless to true will make the browser window not appear even if the bot is runnings
 
 
 

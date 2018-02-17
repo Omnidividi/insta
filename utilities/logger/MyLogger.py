@@ -1,11 +1,13 @@
 import logging
 from utilities.email.EmailDriver import Email
 from utilities.email.EmailVariants.ErrorLogEmail import ErrorLogEmail
+from config import config
 
 class MyLogger:
 
+
 	def __init__(self):
-		logging.basicConfig(filename='errors.log',level=logging.DEBUG)
+		logging.basicConfig(filename=config.log_path,level=logging.DEBUG)
 		stream_handler = logging.StreamHandler()
 		formatter = logging.Formatter("%(levelname)s : %(pathname)s:%(lineno)s - %(msg)s --- %(asctime)s")
 		stream_handler.setFormatter(formatter)
@@ -14,7 +16,7 @@ class MyLogger:
 		logger.addHandler(stream_handler)
 		logger.setLevel(logging.DEBUG)
 
-		
+
 
 	def log(self, error):
 		logging.error("\n --------------------------------- \n", exc_info=True)
@@ -22,7 +24,7 @@ class MyLogger:
 		logging.error("\n --------------------------------- \n", exc_info=True)
 
 	def empty(self):
-		with open("errors.log", "w") as file:
+		with open(config.log_path, "w") as file:
 			file.truncate()
 
 	def send(self):
