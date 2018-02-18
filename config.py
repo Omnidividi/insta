@@ -20,10 +20,10 @@ class config:
 	# limits
 	like_per_day=200 # likes per day
 	comments_per_day=200 # Max Comments per day
-	follow_per_day=100 # people to follow per day
+	follow_per_day=160 # people to follow per day
 	number_of_people_to_follow_per_user=20 # the number of people to follow per individual user I am scraping followers from
-	follow_time=5*60*60 # Seconds to wait before unfollowing
-	unfollow_per_day=100 # Max Users to unfollow per day
+	follow_time=2*24*60*60 # Seconds to wait before unfollowing
+	unfollow_per_day=160 # Max Users to unfollow per day
 	posts_per_day=2 # how many photos to post per day
 	post_backlog=40 # how many unposted, saved photos that are scheduled to be posted there should be on average
 	times_of_posts=[] # array of possible times to post pictures

@@ -10,12 +10,14 @@ from config import config
 from daily.DailyVars import DailyVars
 from utilities.logger.MyLogger import MyLogger
 from utilities.request.Request import Request
+import datetime
 
 class instaBot:
 
 	def __init__(self):
 		self.browser = None
 		self.dailyVars = DailyVars()
+		MyLogger().log("Running bot {} ******************************".format(datetime.datetime.now()))
 
 	def instantiateBrowser(self):
 		if self.browser == None:
@@ -51,22 +53,27 @@ class instaBot:
 		return postBacklogAmount < config.post_backlog
 
 	def run(self):
+
 		if self.scrapingIncomplete():
 			self.instantiateBrowser()
 			scraper = Scraper(UserScraper(self.browser))
 			scraper.run()
 
-		if self.dailyVars.should("follow") or self.dailyVars.should("unfollow"):
+
+		if self.dailyVars.should("follow"):
+			MyLogger().log("should follow true")
 			self.instantiateBrowser()
 			followManager = FollowManager(self.browser)
+			followManager.follow()
 
-			if self.dailyVars.should("follow"):
-				followManager.follow()
-
-			if self.dailyVars.should("unfollow"):
-				followManager.unfollow()
+		if self.dailyVars.should("unfollow"):
+			MyLogger().log("should unfollow true")
+			self.instantiateBrowser()
+			followManager = FollowManager(self.browser)
+			followManager.unfollow()
 
 		if self.dailyVars.should("post"):
+			MyLogger().log("should post true")
 			self.instantiateBrowser()
 			poster = Poster(self.browser)
 			poster.run()
@@ -74,6 +81,7 @@ class instaBot:
 		sleep(5)
 		if self.browser != None:
 			self.browser.close()
+
 		return
 
 
@@ -87,6 +95,7 @@ class instaBot:
 		# do comments
 
 	def dailyWrapUp(self):
+		self.instantiateBrowser()
 		dailyHandler = Daily(self.browser)
 		# # send email to self with information about scraped posts, post backlog and post evaluation
 		dailyHandler.evaluatePosts()

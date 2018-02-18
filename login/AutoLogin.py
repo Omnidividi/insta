@@ -8,6 +8,7 @@ class AutoLogin:
 
 	def login(self):
 		self.navigateToLoginPage()
+		sleep(2)
 		self.fillInForm()
 
 	def navigateToLoginPage(self):
