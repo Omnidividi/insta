@@ -26,7 +26,7 @@ class FollowManager:
 				self.AutoFollow.followFromUser(username, followFromThisUserLimit)
 			except FollowExceptions.NoMoreAccountsToStealFollowersFrom:
 				break
-			
+
 
 	def numberOfUsersToActuallyFollow(self):
 		response = Request().get("/report/daily-report/fetch")

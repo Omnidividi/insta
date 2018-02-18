@@ -23,6 +23,7 @@ class Request:
 		data = data
 		# send the POST request
 		response = requests.post(fullUrl, params=params, data=data, headers=self.headers, json=json)
+		print(response.status_code)
 		if response.status_code != 200:
 			self.logFailure(response)
 
@@ -36,7 +37,7 @@ class Request:
 		params = params
 		# send the GET request
 		response = requests.get(fullUrl, params=params, headers=self.headers)
-
+		print(response.status_code)
 		if response.status_code != 200:
 			self.logFailure(fullUrl, response)
 		return response

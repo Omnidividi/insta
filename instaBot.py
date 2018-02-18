@@ -9,58 +9,71 @@ from daily.Daily import Daily
 from config import config
 from daily.DailyVars import DailyVars
 from utilities.logger.MyLogger import MyLogger
+from utilities.request.Request import Request
 
 class instaBot:
 
 	def __init__(self):
+		self.browser = None
 		self.dailyVars = DailyVars()
 
-		chrome_options = webdriver.ChromeOptions()
-		mobile_emulation = { "deviceName": "iPhone 7" }
-		chrome_options = webdriver.ChromeOptions()
-		chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
-		# chrome_options.add_argument("--incognito")
-		if config.headless:
-			chrome_options.add_argument('--headless')
-			chrome_options.add_argument('--disable-gpu')  # Last I checked this was necessary.
+	def instantiateBrowser(self):
+		if self.browser == None:
+			chrome_options = webdriver.ChromeOptions()
+			mobile_emulation = { "deviceName": "iPhone 7" }
+			chrome_options = webdriver.ChromeOptions()
+			chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
+			# chrome_options.add_argument("--incognito")
+			if config.headless:
+				chrome_options.add_argument('--headless')
+				chrome_options.add_argument('--disable-gpu')  # Last I checked this was necessary.
 
 
-		if config.use_proxy:
-			myProxy = config.proxy
+			if config.use_proxy:
+				myProxy = config.proxy
 
-			proxy = Proxy({
-				'proxyType': ProxyType.MANUAL,
-				'httpProxy': myProxy,
-				'ftpProxy': myProxy,
-				'sslProxy': myProxy,
-			})
-			self.browser = webdriver.Chrome(chrome_options=chrome_options, proxy=proxy)
-		else:
-			self.browser = webdriver.Chrome(chrome_options=chrome_options)
+				proxy = Proxy({
+					'proxyType': ProxyType.MANUAL,
+					'httpProxy': myProxy,
+					'ftpProxy': myProxy,
+					'sslProxy': myProxy,
+				})
+				self.browser = webdriver.Chrome(chrome_options=chrome_options, proxy=proxy)
+			else:
+				self.browser = webdriver.Chrome(chrome_options=chrome_options)
+
 
 		AutoLogin(self.browser).login()
 
 
-
+	def scrapingIncomplete(self):
+		postBacklogAmount = Request().get("/post/backlog/amount").json()
+		return postBacklogAmount < config.post_backlog
 
 	def run(self):
+		if self.scrapingIncomplete():
+			self.instantiateBrowser()
+			scraper = Scraper(UserScraper(self.browser))
+			scraper.run()
 
-		# Scrape posts every time bot is fired
-		scraper = Scraper(UserScraper(self.browser))
-		scraper.run()
+		if self.dailyVars.should("follow") or self.dailyVars.should("unfollow"):
+			self.instantiateBrowser()
+			followManager = FollowManager(self.browser)
 
-		if self.dailyVars.should("follow"):
-			followManager.follow()
+			if self.dailyVars.should("follow"):
+				followManager.follow()
 
-		if self.dailyVars.should("unfollow"):
-			followManager.unfollow()
+			if self.dailyVars.should("unfollow"):
+				followManager.unfollow()
 
 		if self.dailyVars.should("post"):
+			self.instantiateBrowser()
 			poster = Poster(self.browser)
 			poster.run()
 
 		sleep(5)
-		self.browser.close()
+		if self.browser != None:
+			self.browser.close()
 		return
 
 
