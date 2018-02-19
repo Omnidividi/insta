@@ -20,6 +20,7 @@ class instaBot:
 		MyLogger().log("Running bot {} ******************************".format(datetime.datetime.now()))
 
 	def instantiateBrowser(self):
+
 		if self.browser == None:
 			chrome_options = webdriver.ChromeOptions()
 			mobile_emulation = { "deviceName": "iPhone 7" }
@@ -45,7 +46,7 @@ class instaBot:
 				self.browser = webdriver.Chrome(chrome_options=chrome_options)
 
 
-		AutoLogin(self.browser).login()
+			AutoLogin(self.browser).login()
 
 
 	def scrapingIncomplete(self):
