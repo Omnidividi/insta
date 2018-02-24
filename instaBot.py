@@ -10,6 +10,8 @@ from config import config
 from daily.DailyVars import DailyVars
 from utilities.logger.MyLogger import MyLogger
 from utilities.request.Request import Request
+from engagement.ActionsOnHomepage import ActionsOnHomepage
+from follow.FollowExceptions import FollowExceptions
 import datetime
 
 class instaBot:
@@ -17,6 +19,8 @@ class instaBot:
 	def __init__(self):
 		self.browser = None
 		self.dailyVars = DailyVars()
+		print("starting up")
+		print(datetime.datetime.now())
 		MyLogger().log("Running bot {} ******************************".format(datetime.datetime.now()))
 
 	def instantiateBrowser(self):
@@ -25,8 +29,10 @@ class instaBot:
 			chrome_options = webdriver.ChromeOptions()
 			mobile_emulation = { "deviceName": "iPhone 7" }
 			chrome_options = webdriver.ChromeOptions()
+			chrome_options.add_argument('--no-sandbox')
+			chrome_options.add_argument("--disable-setuid-sandbox")
 			chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
-			# chrome_options.add_argument("--incognito")
+
 			if config.headless:
 				chrome_options.add_argument('--headless')
 				chrome_options.add_argument('--disable-gpu')  # Last I checked this was necessary.
@@ -43,9 +49,10 @@ class instaBot:
 				})
 				self.browser = webdriver.Chrome(chrome_options=chrome_options, proxy=proxy)
 			else:
+
 				self.browser = webdriver.Chrome(chrome_options=chrome_options)
 
-
+			print("chrome started")
 			AutoLogin(self.browser).login()
 
 
@@ -54,6 +61,7 @@ class instaBot:
 		return postBacklogAmount < config.post_backlog
 
 	def run(self):
+		print(self.dailyVars.vars)
 
 		if self.scrapingIncomplete():
 			self.instantiateBrowser()
@@ -65,13 +73,22 @@ class instaBot:
 			MyLogger().log("should follow true")
 			self.instantiateBrowser()
 			followManager = FollowManager(self.browser)
-			followManager.follow()
+			try:
+				followManager.follow()
+			except FollowExceptions.InstagramBlocksFollow: 
+				MyLogger().log("Instagram blocked following after following: {}".format(len(peopleFollowed)))
+			
 
 		if self.dailyVars.should("unfollow"):
 			MyLogger().log("should unfollow true")
 			self.instantiateBrowser()
 			followManager = FollowManager(self.browser)
 			followManager.unfollow()
+
+		if self.dailyVars.should("like"):
+			actionsOnHomepage = ActionsOnHomepage(self.browser)
+			actionsOnHomepage.like(config.like_per_batch)
+			
 
 		if self.dailyVars.should("post"):
 			MyLogger().log("should post true")

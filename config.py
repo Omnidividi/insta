@@ -19,6 +19,7 @@ class config:
 
 	# limits
 	like_per_day=200 # likes per day
+	like_per_batch=20 # like per batch
 	comments_per_day=200 # Max Comments per day
 	follow_per_day=160 # people to follow per day
 	number_of_people_to_follow_per_user=20 # the number of people to follow per individual user I am scraping followers from
@@ -33,9 +34,9 @@ class config:
 	# example: if you unfollow people after 4 days and follow 200 people a day, your average follower count will hover around 800
 
 	# follow specific
-	follow_batches=4 # the amount of batches the total daily follower count should be broken up into
+	follow_batches=6 # the amount of batches the total daily follower count should be broken up into
 	break_between_follow_batches=[1*60*60,3*60*60] # the [min,max] time between follow batch execution
-	unfollow_batches=4 # the amount of batches the total daily follower count should be broken up into
+	unfollow_batches=6 # the amount of batches the total daily follower count should be broken up into
 	break_between_unfollow_batches=[1*60*60,3*60*60] # the [min,max] time between follow batch execution
 
 	# accounts
@@ -67,7 +68,7 @@ class config:
 	use_proxy=False
 
 	# headless
-	headless=True # setting headless to true will make the browser window not appear even if the bot is runnings
+	headless=False # setting headless to true will make the browser window not appear even if the bot is runnings
 
 
 

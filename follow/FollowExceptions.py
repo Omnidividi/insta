@@ -8,4 +8,8 @@ class FollowExceptions:
 	# When you try to unfollow user but he is already unfollowed
 		pass
 
+	class InstagramBlocksFollow(Exception):
+	# when instagram doesnt let you follow any more people
+		pass
+
 		

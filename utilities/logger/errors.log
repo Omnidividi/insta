@@ -873,3 +873,515 @@ NoneType: None
 ERROR:root:
  --------------------------------- 
 NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:Running bot 2018-02-20 13:53:16.237643 ******************************
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /post/backlog/amount HTTP/1.1" 200 None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:should follow true
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53486/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"mobileEmulation": {"deviceName": "iPhone 7"}, "extensions": [], "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-extensions", "--headless", "--disable-gpu", "--no-sandbox", "--headless", "--disable-gpu"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"mobileEmulation": {"deviceName": "iPhone 7"}, "extensions": [], "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-extensions", "--headless", "--disable-gpu", "--no-sandbox", "--headless", "--disable-gpu"]}}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53486/session/b6dd361243e4eae4fd129adbd80fc525/url {"url": "https://www.instagram.com/accounts/login/", "sessionId": "b6dd361243e4eae4fd129adbd80fc525"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53486/session/b6dd361243e4eae4fd129adbd80fc525/element {"using": "name", "value": "username", "sessionId": "b6dd361243e4eae4fd129adbd80fc525"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53486/session/b6dd361243e4eae4fd129adbd80fc525/element {"using": "name", "value": "password", "sessionId": "b6dd361243e4eae4fd129adbd80fc525"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53486/session/b6dd361243e4eae4fd129adbd80fc525/element/0.543647384169166-1/value {"text": "feelfit.master@gmail.com", "value": ["f", "e", "e", "l", "f", "i", "t", ".", "m", "a", "s", "t", "e", "r", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "0.543647384169166-1", "sessionId": "b6dd361243e4eae4fd129adbd80fc525"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53486/session/b6dd361243e4eae4fd129adbd80fc525/element/0.543647384169166-2/value {"text": "f33lF!t59", "value": ["f", "3", "3", "l", "F", "!", "t", "5", "9"], "id": "0.543647384169166-2", "sessionId": "b6dd361243e4eae4fd129adbd80fc525"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53486/session/b6dd361243e4eae4fd129adbd80fc525/element {"using": "xpath", "value": "//form/span/button[text()=\"Log in\"]", "sessionId": "b6dd361243e4eae4fd129adbd80fc525"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53486/session/b6dd361243e4eae4fd129adbd80fc525/element/0.543647384169166-3/click {"id": "0.543647384169166-3", "sessionId": "b6dd361243e4eae4fd129adbd80fc525"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:Running bot 2018-02-21 19:16:44.983975 ******************************
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /post/backlog/amount HTTP/1.1" 200 None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:should follow true
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59324/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"mobileEmulation": {"deviceName": "iPhone 7"}, "extensions": [], "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-extensions", "--headless", "--disable-gpu", "--no-sandbox", "--headless", "--disable-gpu"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"mobileEmulation": {"deviceName": "iPhone 7"}, "extensions": [], "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-extensions", "--headless", "--disable-gpu", "--no-sandbox", "--headless", "--disable-gpu"]}}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59324/session/e6b2a1237fff0d330510aabcf4866306/url {"url": "https://www.instagram.com/accounts/login/", "sessionId": "e6b2a1237fff0d330510aabcf4866306"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59324/session/e6b2a1237fff0d330510aabcf4866306/element {"using": "name", "value": "username", "sessionId": "e6b2a1237fff0d330510aabcf4866306"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59324/session/e6b2a1237fff0d330510aabcf4866306/element {"using": "name", "value": "password", "sessionId": "e6b2a1237fff0d330510aabcf4866306"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59324/session/e6b2a1237fff0d330510aabcf4866306/element/0.23622467299190708-1/value {"text": "feelfit.master@gmail.com", "value": ["f", "e", "e", "l", "f", "i", "t", ".", "m", "a", "s", "t", "e", "r", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "0.23622467299190708-1", "sessionId": "e6b2a1237fff0d330510aabcf4866306"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59324/session/e6b2a1237fff0d330510aabcf4866306/element/0.23622467299190708-2/value {"text": "f33lF!t59", "value": ["f", "3", "3", "l", "F", "!", "t", "5", "9"], "id": "0.23622467299190708-2", "sessionId": "e6b2a1237fff0d330510aabcf4866306"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59324/session/e6b2a1237fff0d330510aabcf4866306/element {"using": "xpath", "value": "//form/span/button[text()=\"Log in\"]", "sessionId": "e6b2a1237fff0d330510aabcf4866306"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59324/session/e6b2a1237fff0d330510aabcf4866306/element/0.23622467299190708-3/click {"id": "0.23622467299190708-3", "sessionId": "e6b2a1237fff0d330510aabcf4866306"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:Running bot 2018-02-21 19:17:09.183409 ******************************
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /post/backlog/amount HTTP/1.1" 200 None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:should follow true
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59352/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"mobileEmulation": {"deviceName": "iPhone 7"}, "extensions": [], "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-extensions", "--headless", "--disable-gpu", "--no-sandbox"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"mobileEmulation": {"deviceName": "iPhone 7"}, "extensions": [], "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-extensions", "--headless", "--disable-gpu", "--no-sandbox"]}}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59352/session/b0c60ddfb03dec0e2e4ce39c12e54894/url {"url": "https://www.instagram.com/accounts/login/", "sessionId": "b0c60ddfb03dec0e2e4ce39c12e54894"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59352/session/b0c60ddfb03dec0e2e4ce39c12e54894/element {"using": "name", "value": "username", "sessionId": "b0c60ddfb03dec0e2e4ce39c12e54894"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59352/session/b0c60ddfb03dec0e2e4ce39c12e54894/element {"using": "name", "value": "password", "sessionId": "b0c60ddfb03dec0e2e4ce39c12e54894"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59352/session/b0c60ddfb03dec0e2e4ce39c12e54894/element/0.14905883276382959-1/value {"text": "feelfit.master@gmail.com", "value": ["f", "e", "e", "l", "f", "i", "t", ".", "m", "a", "s", "t", "e", "r", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "0.14905883276382959-1", "sessionId": "b0c60ddfb03dec0e2e4ce39c12e54894"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59352/session/b0c60ddfb03dec0e2e4ce39c12e54894/element/0.14905883276382959-2/value {"text": "f33lF!t59", "value": ["f", "3", "3", "l", "F", "!", "t", "5", "9"], "id": "0.14905883276382959-2", "sessionId": "b0c60ddfb03dec0e2e4ce39c12e54894"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59352/session/b0c60ddfb03dec0e2e4ce39c12e54894/element {"using": "xpath", "value": "//form/span/button[text()=\"Log in\"]", "sessionId": "b0c60ddfb03dec0e2e4ce39c12e54894"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59352/session/b0c60ddfb03dec0e2e4ce39c12e54894/element/0.14905883276382959-3/click {"id": "0.14905883276382959-3", "sessionId": "b0c60ddfb03dec0e2e4ce39c12e54894"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /report/daily-report/fetch HTTP/1.1" 200 None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:should unfollow true
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /users-to-unfollow?unfollowUsersAfter=172800 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /report/daily-report/fetch HTTP/1.1" 200 None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59352/session/b0c60ddfb03dec0e2e4ce39c12e54894/url {"url": "https://www.instagram.com/eva_chuprynina/", "sessionId": "b0c60ddfb03dec0e2e4ce39c12e54894"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:Running bot 2018-02-21 19:18:05.141604 ******************************
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /post/backlog/amount HTTP/1.1" 200 None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:should follow true
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"mobileEmulation": {"deviceName": "iPhone 7"}, "extensions": [], "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-extensions", "--no-sandbox"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"mobileEmulation": {"deviceName": "iPhone 7"}, "extensions": [], "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-extensions", "--no-sandbox"]}}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/url {"url": "https://www.instagram.com/accounts/login/", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "name", "value": "username", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "name", "value": "password", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.5388234087607606-1/value {"text": "feelfit.master@gmail.com", "value": ["f", "e", "e", "l", "f", "i", "t", ".", "m", "a", "s", "t", "e", "r", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "0.5388234087607606-1", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.5388234087607606-2/value {"text": "f33lF!t59", "value": ["f", "3", "3", "l", "F", "!", "t", "5", "9"], "id": "0.5388234087607606-2", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "xpath", "value": "//form/span/button[text()=\"Log in\"]", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.5388234087607606-3/click {"id": "0.5388234087607606-3", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /report/daily-report/fetch HTTP/1.1" 200 None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:should unfollow true
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /users-to-unfollow?unfollowUsersAfter=172800 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /report/daily-report/fetch HTTP/1.1" 200 None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/url {"url": "https://www.instagram.com/eva_chuprynina/", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "css selector", "value": "span._lyv4q._ov9ai", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.6956992788546565-1/element {"using": "css selector", "value": "button._qv64e._t78yp._r9b8f._njrw0", "id": "0.6956992788546565-1", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/url {"url": "https://www.instagram.com/alexis_luv___/", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "css selector", "value": "span._lyv4q._ov9ai", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.9927823655977983-1/element {"using": "css selector", "value": "button._qv64e._t78yp._r9b8f._njrw0", "id": "0.9927823655977983-1", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/url {"url": "https://www.instagram.com/bubelazarova/", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "css selector", "value": "span._lyv4q._ov9ai", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.6105778998204181-1/element {"using": "css selector", "value": "button._qv64e._t78yp._r9b8f._njrw0", "id": "0.6105778998204181-1", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/url {"url": "https://www.instagram.com/ashhuggett/", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "css selector", "value": "span._lyv4q._ov9ai", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.03509354259758424-1/element {"using": "css selector", "value": "button._qv64e._t78yp._r9b8f._njrw0", "id": "0.03509354259758424-1", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/url {"url": "https://www.instagram.com/aliebragz/", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "css selector", "value": "span._lyv4q._ov9ai", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.7940503749277348-1/element {"using": "css selector", "value": "button._qv64e._t78yp._r9b8f._njrw0", "id": "0.7940503749277348-1", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/url {"url": "https://www.instagram.com/fitnesssiinspo/", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "css selector", "value": "span._lyv4q._ov9ai", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.20259574343908926-1/element {"using": "css selector", "value": "button._qv64e._t78yp._r9b8f._njrw0", "id": "0.20259574343908926-1", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/url {"url": "https://www.instagram.com/alessandro__arcuri/", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "css selector", "value": "span._lyv4q._ov9ai", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.35021731998120154-1/element {"using": "css selector", "value": "button._qv64e._t78yp._r9b8f._njrw0", "id": "0.35021731998120154-1", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/url {"url": "https://www.instagram.com/beautyboozed_bubblebelly/", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "css selector", "value": "span._lyv4q._ov9ai", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.28097124264568696-1/element {"using": "css selector", "value": "button._qv64e._t78yp._r9b8f._njrw0", "id": "0.28097124264568696-1", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/url {"url": "https://www.instagram.com/katie.anna.roberts/", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "css selector", "value": "span._lyv4q._ov9ai", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.997792632468349-1/element {"using": "css selector", "value": "button._qv64e._t78yp._r9b8f._njrw0", "id": "0.997792632468349-1", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/url {"url": "https://www.instagram.com/xiang.sanpu/", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "css selector", "value": "span._lyv4q._ov9ai", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.31836291989786325-1/element {"using": "css selector", "value": "button._qv64e._t78yp._r9b8f._njrw0", "id": "0.31836291989786325-1", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/url {"url": "https://www.instagram.com/gain_insta_followerzz.34/", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element {"using": "css selector", "value": "span._lyv4q._ov9ai", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/element/0.15452163744164715-1/element {"using": "css selector", "value": "button._qv64e._t78yp._r9b8f._njrw0", "id": "0.15452163744164715-1", "sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /followed/unfollow HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /report/daily-report/increase?unfollowed=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /followed/unfollow HTTP/1.1" 200 0
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:should post true
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /report/daily-report/fetch HTTP/1.1" 200 None
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:59387/session/7c30d9615462efa6893c715ffe53eafa/window {"sessionId": "7c30d9615462efa6893c715ffe53eafa"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:Running bot 2018-02-21 19:19:24.476470 ******************************
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /post/backlog/amount HTTP/1.1" 200 None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:should follow true
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59479/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"mobileEmulation": {"deviceName": "iPhone 7"}, "extensions": [], "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-extensions", "--no-sandbox"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"mobileEmulation": {"deviceName": "iPhone 7"}, "extensions": [], "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-extensions", "--no-sandbox"]}}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59479/session/53a3f5d6b52edcf0990f63b09a8f1c16/url {"url": "https://www.instagram.com/accounts/login/", "sessionId": "53a3f5d6b52edcf0990f63b09a8f1c16"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59479/session/53a3f5d6b52edcf0990f63b09a8f1c16/element {"using": "name", "value": "username", "sessionId": "53a3f5d6b52edcf0990f63b09a8f1c16"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59479/session/53a3f5d6b52edcf0990f63b09a8f1c16/element {"using": "name", "value": "password", "sessionId": "53a3f5d6b52edcf0990f63b09a8f1c16"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59479/session/53a3f5d6b52edcf0990f63b09a8f1c16/element/0.1331354394822739-1/value {"text": "feelfit.master@gmail.com", "value": ["f", "e", "e", "l", "f", "i", "t", ".", "m", "a", "s", "t", "e", "r", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "0.1331354394822739-1", "sessionId": "53a3f5d6b52edcf0990f63b09a8f1c16"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59479/session/53a3f5d6b52edcf0990f63b09a8f1c16/element/0.1331354394822739-2/value {"text": "f33lF!t59", "value": ["f", "3", "3", "l", "F", "!", "t", "5", "9"], "id": "0.1331354394822739-2", "sessionId": "53a3f5d6b52edcf0990f63b09a8f1c16"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59479/session/53a3f5d6b52edcf0990f63b09a8f1c16/element {"using": "xpath", "value": "//form/span/button[text()=\"Log in\"]", "sessionId": "53a3f5d6b52edcf0990f63b09a8f1c16"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59479/session/53a3f5d6b52edcf0990f63b09a8f1c16/element/0.1331354394822739-3/click {"id": "0.1331354394822739-3", "sessionId": "53a3f5d6b52edcf0990f63b09a8f1c16"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /report/daily-report/fetch HTTP/1.1" 200 None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:should unfollow true
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /users-to-unfollow?unfollowUsersAfter=172800 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /report/daily-report/fetch HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /followed/unfollow HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /report/daily-report/increase?unfollowed=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /followed/unfollow HTTP/1.1" 200 0
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:should post true
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /report/daily-report/fetch HTTP/1.1" 200 None
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:59479/session/53a3f5d6b52edcf0990f63b09a8f1c16/window {"sessionId": "53a3f5d6b52edcf0990f63b09a8f1c16"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:Running bot 2018-02-21 19:20:08.146183 ******************************
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /post/backlog/amount HTTP/1.1" 200 None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:should follow true
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"mobileEmulation": {"deviceName": "iPhone 7"}, "extensions": [], "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-extensions", "--no-sandbox"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"mobileEmulation": {"deviceName": "iPhone 7"}, "extensions": [], "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-extensions", "--no-sandbox"]}}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/url {"url": "https://www.instagram.com/accounts/login/", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element {"using": "name", "value": "username", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element {"using": "name", "value": "password", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.7531442831000821-1/value {"text": "feelfit.master@gmail.com", "value": ["f", "e", "e", "l", "f", "i", "t", ".", "m", "a", "s", "t", "e", "r", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "0.7531442831000821-1", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.7531442831000821-2/value {"text": "f33lF!t59", "value": ["f", "3", "3", "l", "F", "!", "t", "5", "9"], "id": "0.7531442831000821-2", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element {"using": "xpath", "value": "//form/span/button[text()=\"Log in\"]", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.7531442831000821-3/click {"id": "0.7531442831000821-3", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /report/daily-report/fetch HTTP/1.1" 200 None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/url {"url": "https://www.instagram.com/amazingfitgirls/", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element {"using": "css selector", "value": "a[href*='followers']", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-1/click {"id": "0.48091749726240307-1", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/elements {"using": "css selector", "value": "li._6e4x5 div._npuc5", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element {"using": "tag name", "value": "body", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-3/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-3", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-5", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-23", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/click {"button": 0, "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-3/element {"using": "css selector", "value": "div._eryrc div._2nunc a._2g7d5._o5iw8", "id": "0.48091749726240307-3", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-24/attribute/title {"name": "title", "id": "0.48091749726240307-24", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-4/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-4", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-6", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-25", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/click {"button": 0, "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-4/element {"using": "css selector", "value": "div._eryrc div._2nunc a._2g7d5._o5iw8", "id": "0.48091749726240307-4", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-26/attribute/title {"name": "title", "id": "0.48091749726240307-26", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-5/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-5", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-6/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-6", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-8", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-27", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/click {"button": 0, "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-6/element {"using": "css selector", "value": "div._eryrc div._2nunc a._2g7d5._o5iw8", "id": "0.48091749726240307-6", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-28/attribute/title {"name": "title", "id": "0.48091749726240307-28", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-7/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-7", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-8/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-8", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-10", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-29", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/click {"button": 0, "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-8/element {"using": "css selector", "value": "div._eryrc div._2nunc a._2g7d5._o5iw8", "id": "0.48091749726240307-8", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-30/attribute/title {"name": "title", "id": "0.48091749726240307-30", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-9/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-9", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-11", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-31", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/click {"button": 0, "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-9/element {"using": "css selector", "value": "div._eryrc div._2nunc a._2g7d5._o5iw8", "id": "0.48091749726240307-9", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-32/attribute/title {"name": "title", "id": "0.48091749726240307-32", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-10/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-10", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-12", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-33", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/click {"button": 0, "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-10/element {"using": "css selector", "value": "div._eryrc div._2nunc a._2g7d5._o5iw8", "id": "0.48091749726240307-10", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-34/attribute/title {"name": "title", "id": "0.48091749726240307-34", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-11/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-11", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-13", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-35", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/click {"button": 0, "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-11/element {"using": "css selector", "value": "div._eryrc div._2nunc a._2g7d5._o5iw8", "id": "0.48091749726240307-11", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-36/attribute/title {"name": "title", "id": "0.48091749726240307-36", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-12/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-12", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-13/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-13", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-15", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-37", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/click {"button": 0, "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-13/element {"using": "css selector", "value": "div._eryrc div._2nunc a._2g7d5._o5iw8", "id": "0.48091749726240307-13", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-38/attribute/title {"name": "title", "id": "0.48091749726240307-38", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-14/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-14", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-16", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-39", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/click {"button": 0, "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-14/element {"using": "css selector", "value": "div._eryrc div._2nunc a._2g7d5._o5iw8", "id": "0.48091749726240307-14", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-40/attribute/title {"name": "title", "id": "0.48091749726240307-40", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-15/element {"using": "css selector", "value": "button._qv64e._gexxb._4tgw8._njrw0", "id": "0.48091749726240307-15", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-17", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/moveto {"element": "0.48091749726240307-41", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/click {"button": 0, "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-15/element {"using": "css selector", "value": "div._eryrc div._2nunc a._2g7d5._o5iw8", "id": "0.48091749726240307-15", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/element/0.48091749726240307-42/attribute/title {"name": "title", "id": "0.48091749726240307-42", "sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /followed/follow HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /report/daily-report/increase?followed=10 HTTP/1.1" 200 None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+ERROR:root:should unfollow true
+NoneType: None
+ERROR:root:
+ --------------------------------- 
+NoneType: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /users-to-unfollow?unfollowUsersAfter=172800 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "GET /report/daily-report/fetch HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /followed/unfollow HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /report/daily-report/increase?unfollowed=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): london-pt.co.uk
+DEBUG:urllib3.connectionpool:http://london-pt.co.uk:80 "POST /followed/unfollow HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:59529/session/6998bbd35845f3840e03a0f9d5a7a07f/window {"sessionId": "6998bbd35845f3840e03a0f9d5a7a07f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request

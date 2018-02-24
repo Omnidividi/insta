@@ -48,7 +48,9 @@ class DailyVars:
 
 		for _ in range(config.posts_per_day):
 			dailyTimes["vars"]["post"].append({"complete": 0, "time": self.random_date()})
-		
+		for _ in range(config.like_per_day/config.like_per_batch):
+			dailyTimes["vars"]["like"].append({"complete": 0, "time": self.random_date()})
+
 		self.save_obj(dailyTimes, "vars")
 
 
