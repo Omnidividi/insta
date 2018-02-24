@@ -3,7 +3,7 @@ from time import sleep
 from engagement.auto_action import autoAction
 from selenium.webdriver.common.action_chains import ActionChains
 
-class actionsOnHomepage:
+class ActionsOnHomepage:
 
 	def __init__ (self, browser):
 		self.browser = browser

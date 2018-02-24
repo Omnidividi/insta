@@ -63,38 +63,39 @@ class instaBot:
 	def run(self):
 		print(self.dailyVars.vars)
 
-		if self.scrapingIncomplete():
-			self.instantiateBrowser()
-			scraper = Scraper(UserScraper(self.browser))
-			scraper.run()
+		# if self.scrapingIncomplete():
+		# 	self.instantiateBrowser()
+		# 	scraper = Scraper(UserScraper(self.browser))
+		# 	scraper.run()
 
 
-		if self.dailyVars.should("follow"):
-			MyLogger().log("should follow true")
-			self.instantiateBrowser()
-			followManager = FollowManager(self.browser)
-			try:
-				followManager.follow()
-			except FollowExceptions.InstagramBlocksFollow: 
-				MyLogger().log("Instagram blocked following after following: {}".format(len(peopleFollowed)))
+		# if self.dailyVars.should("follow"):
+		# 	MyLogger().log("should follow true")
+		# 	self.instantiateBrowser()
+		# 	followManager = FollowManager(self.browser)
+		# 	try:
+		# 		followManager.follow()
+		# 	except FollowExceptions.InstagramBlocksFollow: 
+		# 		MyLogger().log("Instagram blocked following after following: {}".format(len(peopleFollowed)))
 			
 
-		if self.dailyVars.should("unfollow"):
-			MyLogger().log("should unfollow true")
-			self.instantiateBrowser()
-			followManager = FollowManager(self.browser)
-			followManager.unfollow()
+		# if self.dailyVars.should("unfollow"):
+		# 	MyLogger().log("should unfollow true")
+		# 	self.instantiateBrowser()
+		# 	followManager = FollowManager(self.browser)
+		# 	followManager.unfollow()
 
 		if self.dailyVars.should("like"):
+			self.instantiateBrowser()
 			actionsOnHomepage = ActionsOnHomepage(self.browser)
 			actionsOnHomepage.like(config.like_per_batch)
 			
 
-		if self.dailyVars.should("post"):
-			MyLogger().log("should post true")
-			self.instantiateBrowser()
-			poster = Poster(self.browser)
-			poster.run()
+		# if self.dailyVars.should("post"):
+		# 	MyLogger().log("should post true")
+		# 	self.instantiateBrowser()
+		# 	poster = Poster(self.browser)
+		# 	poster.run()
 
 		sleep(5)
 		if self.browser != None:
